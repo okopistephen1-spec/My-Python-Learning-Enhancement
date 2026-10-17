@@ -1,6 +1,6 @@
 # EASY
 # 1. Create a list of five favourite foods.
-fav_foods = ['egusi', 'jollof', 'beans', 'cake', 'fish']
+fav_foods = ['rice', 'noodles', 'amala', 'beans', 'egusi', 'okro']
 
 # 2. Print the first item.
 print(fav_foods[0])
@@ -14,26 +14,22 @@ fav_foods[3] = 'fried rice'
 # 5. Add another item.
 fav_foods.append('Fried yams')
 
+print(fav_foods)
+
 # MEDIUM
-# Create 'top_scorers', add ten players, remove two. print the final list.
+# Create 'top_scorers', add six players, remove two. print the final list.
 
 top_scorers = []
-top_scorers.append('Mike')
-top_scorers.append('Val')
-top_scorers.append('Justice')
-top_scorers.append('Joe')
-top_scorers.append('Richy')
-top_scorers.append('Charles')
-top_scorers.append('Ricky')
-top_scorers.append('Solomon')
-top_scorers.append('Festus')
-top_scorers.append('Phil')
 
-top_scorers.remove('Festus')
-top_scorers.pop(3)
+top_scorers.append('stephen')
+top_scorers.append('david')
+top_scorers.append('jonathan')
+top_scorers.append('isaac')
+top_scorers.append('mike')
+top_scorers.append('joel')
 
-# print(top_scorers)
-
+top_scorers.remove('david')
+top_scorers.pop(1)
 # Create a shopping list that allow users to add, remove, display using functions.
 shopping_list: list[str] = ['car','rope']
 
